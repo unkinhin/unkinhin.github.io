@@ -111,7 +111,7 @@ ul{
     background-color: var(--secondary-color);
 }
 
-@media(max-width:988px){
+/* @media(max-width:988px){
     header{
         text-align: center;
     }
@@ -144,4 +144,4 @@ ul{
     h2{
         font-size: 1.5rem;
     }
-}
+} */
