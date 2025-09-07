@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hailey's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .intro {
+            font-size: 1.1em;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .profile-text {
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd; /* Placeholder for image */
+            border-radius: 50%;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1em;
+            color: #666;
+            text-align: center;
+            /* Programmatically generated simple avatar using CSS */
+            position: relative;
+            overflow: hidden;
+        }
+        .profile-image::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 60px;
+            background-color: #bbb;
+            border-radius: 50%;
+        }
+        .profile-image::after {
+            content: '';
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 100px;
+            background-color: #bbb;
+            border-radius: 30%;
+        }
+        .about {
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        .about h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        /* Responsive design for mobile */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 2em;
+            }
+            .intro {
+                font-size: 1em;
+            }
+            .profile-image {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hi, I'm Hailey.</h1>
+        </div>
+        <div class="profile-section">
+            <div class="profile-image">Placeholder Avatar</div>
+            <div class="profile-text">
+                <p class="intro">
+                    In Cantonese, I'm Cheng Hei Lam [程曦嵐]. "Hei" (hay), "Lam" (lum) in lumber.<br>
+                    A rising junior with research interests in Mathematical Biology and AI for biomedicine. I'm also a software engineer specializing in AI/ML, and I love building fun, meaningful apps with React Native.<br>
+                    On the side, I share my journey with over 10,000 followers on Threads and 25,000 on LinkedIn.
+                </p>
+            </div>
+        </div>
+        <div class="about">
+            <h2>About</h2>
+            <p>
+                I'm a Homo sapiens born and raised in Hong Kong. I also spent a year studying in the UK and semesters in the US and France, experiences that opened my mind and shaped how I see the world.
+            </p>
+            <p>
+                Before university, I was that kid obsessed with biology and completely hooked on the Olympiad. I explored the mysteries of life. But after countless hours pipetting in the lab, I started to feel burnt out. I realized I loved biology, just not the endless wet lab work.
+            </p>
+            <p>
+                Some time, I discovered the beauty and speed of simulations, where you can explore systems without spilling a single drop. One day, I had a lightbulb moment: "What if I could model ecosystems and solve big biology questions instead?" That idea completely changed my path.
+            </p>
+            <p>
+                And so, here I am, merging my love for biology with the power of math and computation.
+            </p>
+            <p>
+                When I'm not coding or solving equations, you'll find me kayaking, playing tennis, or on a mission to hunt down the best handmade pasta in Hong Kong! I might have fried them all by now. And when it comes to boba, it's always "No.1" at Comebuytea.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
