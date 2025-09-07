@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hailey's Profile</title>
+    <title>Hannes's Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,6 +90,63 @@
             font-size: 1.5em;
             margin-bottom: 10px;
         }
+        .contact {
+            max-width: 600px;
+            margin: 40px 0;
+            text-align: center;
+            background-color: #fff;
+            padding: 40px 20px;
+        }
+        .contact h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .contact p {
+            font-size: 1.1em;
+            color: #666;
+            margin: 0 0 20px;
+        }
+        .contact .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .contact .icon-circle {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .contact .icon {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+            margin: 0 10px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .contact .icon-email {
+            left: 10%;
+        }
+        .contact .icon-linkedin {
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .contact .icon-cat {
+            right: 10%;
+        }
         /* Responsive design for mobile */
         @media (max-width: 600px) {
             .container {
@@ -105,21 +162,39 @@
                 width: 120px;
                 height: 120px;
             }
+            .contact {
+                padding: 20px 10px;
+            }
+            .contact h2 {
+                font-size: 1.5em;
+            }
+            .contact p {
+                font-size: 1em;
+            }
+            .contact .icon-circle {
+                width: 150px;
+                height: 150px;
+            }
+            .contact .icon {
+                width: 30px;
+                height: 30px;
+                font-size: 1em;
+                margin: 0 5px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Hi, I'm Hailey.</h1>
+            <h1>Hi, I'm Hannes.</h1>
         </div>
         <div class="profile-section">
             <div class="profile-image">Placeholder Avatar</div>
             <div class="profile-text">
                 <p class="intro">
-                    In Cantonese, I'm Cheng Hei Lam [程曦嵐]. "Hei" (hay), "Lam" (lum) in lumber.<br>
-                    A rising junior with research interests in Mathematical Biology and AI for biomedicine. I'm also a software engineer specializing in AI/ML, and I love building fun, meaningful apps with React Native.<br>
-                    On the side, I share my journey with over 10,000 followers on Threads and 25,000 on LinkedIn.
+                    In Cantonese, I'm Un Kin Hin.<br>
+                    A year-2 undergraduate student in The University of Hong Kong.
                 </p>
             </div>
         </div>
@@ -129,17 +204,20 @@
                 I'm a Homo sapiens born and raised in Hong Kong. I also spent a year studying in the UK and semesters in the US and France, experiences that opened my mind and shaped how I see the world.
             </p>
             <p>
-                Before university, I was that kid obsessed with biology and completely hooked on the Olympiad. I explored the mysteries of life. But after countless hours pipetting in the lab, I started to feel burnt out. I realized I loved biology, just not the endless wet lab work.
+                Some Bullshit here
             </p>
-            <p>
-                Some time, I discovered the beauty and speed of simulations, where you can explore systems without spilling a single drop. One day, I had a lightbulb moment: "What if I could model ecosystems and solve big biology questions instead?" That idea completely changed my path.
-            </p>
-            <p>
-                And so, here I am, merging my love for biology with the power of math and computation.
-            </p>
-            <p>
-                When I'm not coding or solving equations, you'll find me kayaking, playing tennis, or on a mission to hunt down the best handmade pasta in Hong Kong! I might have fried them all by now. And when it comes to boba, it's always "No.1" at Comebuytea.
-            </p>
+            
+        </div>
+        <div class="contact">
+            <h2>Get in Touch.</h2>
+            <p>Want to chat? Feel free to reach out via email or LinkedIn and I'll respond whenever I can.</p>
+            <div class="icons">
+                <div class="icon-circle">
+                    <div class="icon icon-email">✉️</div>
+                    <div class="icon icon-linkedin">in</div>
+                    <div class="icon icon-cat">🐱</div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
