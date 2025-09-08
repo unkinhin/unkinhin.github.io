@@ -109,7 +109,7 @@ ul{
 
 .secondary{
     background-color: var(--secondary-color);
-}
+/* }
 
 /* @media(max-width:988px){
     header{
@@ -145,3 +145,4 @@ ul{
         font-size: 1.5rem;
     }
 } */
+ */
